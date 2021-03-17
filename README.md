@@ -1,15 +1,15 @@
-# Группы VK
+# VK groups
 
-Данный скрипт позволяет вывести список групп в VK, в которых состоит пользователь, но не состоит никто из его друзей.
+This script allows to print all the groups of the indicated user which none of his friends are subscribed to.
 
-На вход программа принимает токен для доступа к VK, ID пользователя, которого необходимо "проверить", а также максимальное допустимое количество друзей в группе.
-На выходе пользователь получает json-файл со списком групп и краткой информацией о них.
+The input is: VK-token, user ID and max number of friends in group allowed.
+The output is short summary about groups and it is written to json-file.
 
-Код выполнен с использованием VK API и библиотек:
+The script is written using VK API and following libraries:
 - requests;
 - time;
 - json;
 - alive_progress;
 - urllib.parse.
 
-Код соответствует PEP8.
+The code was written according to PEP8.
